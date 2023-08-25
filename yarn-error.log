@@ -1,0 +1,78 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\ArcSoft\Bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Users\USER\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\OpenJDK\openjdk-8u312-b07\bin;C:\Program Files (x86)\Git\cmd;C:\MinGW\bin;%LOCALAPPDATA%\Android\Sdk\platform-tools;C:\Program Files\nodejs\;C:\Users\USER\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\heroku\bin;C:\tools\dart-sdk\bin;C:\Users\USER\AppData\Roaming\Pub\Cache\bin;C:\Users\USER\AppData\Local\Programs\mongosh\;C:\Users\USER\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\USER\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.5.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: D:\react-native-easy-style\package.json: Expected double-quoted property name in JSON at position 1189
+      at JSON.parse (<anonymous>)
+      at C:\Users\USER\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\USER\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\USER\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "react-native-easy-style",
+    "version": "1.0.0",
+    "description": "",
+    "main": "build/index.js",
+    "types": "build/index.d.ts",
+    "scripts": {
+      "start:dev": "npx nodemon",
+      "build": "rimraf ./build && tsc",
+      "start": "npm run build && node build/index.js"
+    },
+    "directories": {
+      "lib": "build"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DeveloperRejaul/react-native-easy-style.git.git"
+    },
+    "author": "Rejaul Karim",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/DeveloperRejaul/react-native-easy-style.git/issues"
+    },
+    "keywords": [
+      "react-native-easy-style",
+      "style",
+      "react",
+      "react-native",
+      "javascript",
+      "easy",
+      "easy-style"
+    ],
+    "homepage": "https://github.com/DeveloperRejaul/react-native-easy-style.git#readme",
+    "files": [
+      "build/**/*"
+    ],
+    "devDependencies": {
+      "@types/node": "^20.5.6",
+      "nodemon": "^3.0.1",
+      "rimraf": "^5.0.1",
+      "ts-node": "^10.9.1",
+      "typescript": "^5.2.2",
+      "@typescript-eslint/eslint-plugin": "^6.4.0",
+      "@typescript-eslint/parser": "^6.4.0",
+      "eslint": "^8.47.0",
+      "eslint-config-airbnb-typescript": "^17.1.0",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
